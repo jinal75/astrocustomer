@@ -2,7 +2,6 @@ class AppConstants {
   static const String SUCCESS_MESSAGE = " You will be contacted by us very soon.";
   static const String LOADING_MESSAGE = " Wait data will be here.";
   static const String NO_INTERNET = "No Internet Available.";
-
   static const String CONFIG_URI = '/api/config';
   static const String BANNER_URI = '/api/banner';
   static const String SECOND_BANNER_URI = '/api/lowebanner';

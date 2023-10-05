@@ -576,7 +576,7 @@ class _MyAppState extends State<MyApp> {
     }
   }
 
-  final String apiKey = "AIzaSyDwps2hHZbsri0yg4NPUYdQoj5BOsZmWK0";
+  final String apiKey = "AIzaSyBLlDB37YPbULTRu7ms76TvaqthIlvYj54";
   ThemeController themeController = Get.put(ThemeController());
   SplashController splashController = Get.put(SplashController());
   @override
@@ -590,7 +590,7 @@ class _MyAppState extends State<MyApp> {
             enableLog: true,
             theme: nativeTheme(),
             initialBinding: NetworkBinding(),
-            title: 'Astrofuse',
+            title: 'astromt',
             initialRoute: "SplashScreen",
             supportedLocales: L10n.all,
             home: SplashScreen(),

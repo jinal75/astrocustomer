@@ -1,0 +1,12 @@
+key store path: C:\Users\flutter pc\Documents\jinal pc\CustomerApp\JKS\jks.jks
+
+
+password :-astromtuser
+
+confirm :- astromtuser
+
+alias:- astromtuser
+
+password :-astromtuser
+
+confirm :- astromtuser

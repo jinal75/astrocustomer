@@ -12,7 +12,7 @@ class SearchPlaceController extends GetxController {
 
   @override
   void onInit() {
-    String apiKey = "AIzaSyB3OHidxflWFxxR6aIqsvrP1_UxE0VhyJE";
+    String apiKey = "AIzaSyAbUo_terFuZoVWvbOu0Z_mAwkDPjg5BT4";
     googlePlace = GooglePlace(apiKey);
 
     super.onInit();

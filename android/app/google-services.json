@@ -1,13 +1,33 @@
 {
   "project_info": {
-    "project_number": "481476722615",
-    "project_id": "astromtnew-97abc",
-    "storage_bucket": "astromtnew-97abc.appspot.com"
+    "project_number": "598447156670",
+    "firebase_url": "https://astromt-51ef0-default-rtdb.firebaseio.com",
+    "project_id": "astromt-51ef0",
+    "storage_bucket": "astromt-51ef0.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:481476722615:android:c64c385d8b6decb730f232",
+        "mobilesdk_app_id": "1:598447156670:android:5a1598e94439b2d4395def",
+        "android_client_info": {
+          "package_name": "com.astromt.partner"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCL2Vv10Z-k960HsZdPOlZ8j9uNSPon05s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:598447156670:android:c55abe688317021b395def",
         "android_client_info": {
           "package_name": "com.astromt.user"
         }
@@ -15,7 +35,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyAhpubggK1PVSLzh6qrV832obakTjtTkNs"
+          "current_key": "AIzaSyCL2Vv10Z-k960HsZdPOlZ8j9uNSPon05s"
         }
       ],
       "services": {

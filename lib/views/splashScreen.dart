@@ -18,22 +18,23 @@ class SplashScreen extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
-            CircleAvatar(
-              backgroundColor: Get.theme.primaryColor,
-              radius: 50,
-              backgroundImage: AssetImage('assets/images/splash.png'),
-            ),
-            const SizedBox(
-              height: 15,
-            ),
-            GetBuilder<SplashController>(builder: (s) {
-              return splashController.appName == ''
-                  ? const CircularProgressIndicator()
-                  : Text(
-                      splashController.appName,
-                      style: Get.textTheme.headline5,
-                    );
-            })
+            Image.asset('assets/images/logobig.png'),
+            // CircleAvatar(
+            //   backgroundColor: Get.theme.primaryColor,
+            //   radius: 50,
+            //   backgroundImage: AssetImage('assets/images/splash.png'),
+            // ),
+            // const SizedBox(
+            //   height: 15,
+            // ),
+            // GetBuilder<SplashController>(builder: (s) {
+            //   return splashController.appName == ''
+            //       ? const CircularProgressIndicator()
+            //       : Text(
+            //           splashController.appName,
+            //           style: Get.textTheme.headline5,
+            //         );
+            // })
           ],
         ),
       ),

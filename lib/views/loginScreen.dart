@@ -67,6 +67,7 @@ class LoginScreen extends StatelessWidget {
                           ),
                         ),
                       ),
+
                       CircleAvatar(
                         backgroundColor: Get.theme.primaryColor,
                         radius: 60,

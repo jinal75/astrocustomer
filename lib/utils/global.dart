@@ -58,27 +58,27 @@ final DateFormat formatter = DateFormat("dd MMM yy, hh:mm a");
 
 String stripeBaseApi = 'https://api.stripe.com/v1';
 
-String baseUrl = "https://astromt.lttrbxtech.com/api";
-String imgBaseurl = "https://astromt.lttrbxtech.com/";
-String webBaseUrl = "https://astromt.lttrbxtech.com/";
+String baseUrl = "https://astromt.app/api";
+String imgBaseurl = "https://astromt.app/";
+String webBaseUrl = "https://astromt.app/";
 String appMode = "LIVE";
 Map<String, dynamic> appParameters = {
   "LIVE": {
-    "apiUrl": "https://astromt.lttrbxtech.com/api",
-    "imageBaseurl": "https://astromt.lttrbxtech.com/",
+    "apiUrl": "https://astromt.app/api",
+    "imageBaseurl": "https://astromt.app/",
   },
   "DEV": {
-    "apiUrl": "https://astromt.lttrbxtech.com/api",
-    "imageBaseurl": "https://astromt.lttrbxtech.com/",
+    "apiUrl": "https://astromt.app/api",
+    "imageBaseurl": "https://astromt.app/",
   }
 };
 String agoraChannelName = ""; //valid 24hr
 String agoraToken = "";
 String channelName = "astroGuruCall";
 String agoraLiveToken = "";
-String liveChannelName = "astroGuruLive";
-String agoraChatUserId = "astroguruUser";
-String chatChannelName = "astroGuruChat";
+//String liveChannelName = "astroGuruLive";
+//String agoraChatUserId = "astroguruUser";
+//String chatChannelName = "astroGuruChat";
 String agoraChatToken = "";
 String encodedString = "&&";
 Color coursorColor = Color(0xFF757575);
@@ -87,7 +87,7 @@ String agoraResourceId = "";
 String agoraResourceId2 = "";
 String agoraSid1 = "";
 String agoraSid2 = "";
-String? googleAPIKey;
+//String? googleAPIKey;
 String lat = "21.124857";
 String lng = "73.112610";
 var nativeAndroidPlatform = const MethodChannel('nativeAndroid');
