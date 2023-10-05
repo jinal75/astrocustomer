@@ -597,7 +597,7 @@ class HomeScreen extends StatelessWidget {
                                                   bottomController.setBottomIndex(4, 0);
                                                 },
                                                 child: Text(
-                                                  'View All',
+                                                  'View Alllllll',
                                                   style: Get.theme.primaryTextTheme.bodySmall!.copyWith(
                                                     fontWeight: FontWeight.w400,
                                                     color: Colors.grey[500],
@@ -673,7 +673,7 @@ class HomeScreen extends StatelessWidget {
                                                                   Text('${homeController.myOrders[index].astrologerName}').translate(),
                                                                   Text(
                                                                     DateConverter.dateTimeStringToDateOnly(homeController.myOrders[index].createdAt.toString()),
-                                                                    style: TextStyle(color: Colors.grey, fontSize: 10),
+                                                                    style: TextStyle(color: Colors.black, fontSize: 10),
                                                                   ),
                                                                   Row(
                                                                     children: [

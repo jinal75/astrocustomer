@@ -17,17 +17,17 @@ class DefaultFirebaseOptions {
 
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: "AIzaSyCorfJlDZMP1whQc9qUd0cYt3nW_radXf0",
-    authDomain: "astromtone.firebaseapp.com",
-    projectId: "astromtone",
-    storageBucket: "astromtone.appspot.com",
-    messagingSenderId: "522016813272",
-    appId: "1:522016813272:android:9636eac41581ac714c27ad",
+    apiKey: "AIzaSyCL2Vv10Z-k960HsZdPOlZ8j9uNSPon05s",
+    authDomain: "astromt-51ef0.firebaseapp.com",
+    projectId: "astromt-51ef0",
+    storageBucket: "astromt-51ef0.appspot.com",
+    messagingSenderId: "598447156670",
+    appId: "1:598447156670:android:c55abe688317021b395def",
     //measurementId: "G-KBPRBBZRYC",
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: "AIzaSyBqN3StK3tU4VWcswAZBKbvff3wZA2qKEU",
+    apiKey: "AIzaSyAhpubggK1PVSLzh6qrV832obakTjtTkNs",
     authDomain: "astroguru-75d26.firebaseapp.com",
     projectId: "astroguru-75d26",
     storageBucket: "astroguru-75d26.appspot.com",

@@ -45,7 +45,7 @@ class DrawerWidget extends StatelessWidget {
           return Column(
             children: [
               Padding(
-                padding: const EdgeInsets.only(top: 38.0, left: 20, bottom: 10),
+                padding: const EdgeInsets.only(top: 38.0, left: 10, bottom: 10),
                 child: GestureDetector(
                   onTap: () async {
                     bool isLogin = await global.isLogin();

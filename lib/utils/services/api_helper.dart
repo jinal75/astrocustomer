@@ -1046,6 +1046,7 @@ class APIHelper {
         headers: await global.getApiHeaders(true),
         body: json.encode({"astrologerId": astrologerId, "isFreeSession": isFreeSession}),
       );
+      print("API RWSPONSE FOR ADD CHAT ${baseUrl}/chatRequest/add ${response.statusCode}");
       dynamic recordList;
       if (response.statusCode == 200) {
         recordList = json.decode(response.body)['recordList'];
